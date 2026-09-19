@@ -1,4 +1,4 @@
-# 🚀 API Komtol V4 & V7
+# 🚀 API Komtol
 
 API sederhana berbasis **Node.js + Express** untuk auto create, trial, dan renew akun VPN (SSH, VMESS, VLESS, TROJAN, SHADOWSOCKS).
 
