@@ -64,7 +64,7 @@ setup_bot() {
         echo -e "${blue}Download API...${neutral}"
         curl -sL https://raw.githubusercontent.com/kayu55/komtol/main/komtol.zip -o /usr/bin/komtol.zip
         cd /usr/bin
-        unzip komtol.zip >/dev/null 2>&1
+        unzip komtol.zip
         rm komtol.zip*
         chmod +x komtol/*
         cd
