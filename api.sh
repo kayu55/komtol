@@ -59,10 +59,11 @@ setup_bot() {
         echo -e "${green}Node.js v$NODE_VERSION OK${neutral}"
     fi
 
-    # === DOWNLOAD API ===
+    # === DOWNLOAD API KONTOL===
     if [ ! -f /usr/bin/api-ari/api.js ]; then
         echo -e "${blue}Download API...${neutral}"
-        wget https://raw.githubusercontent.com/kayu55/komtol/main/komtol.zip -o /usr/bin/komtol.zip
+        wget https://raw.githubusercontent.com/kayu55/komtol/main/komtol.zip
+        mv komtol/* /usr/usr/sbin
         cd /usr/bin
         unzip komtol.zip
         rm komtol.zip*
